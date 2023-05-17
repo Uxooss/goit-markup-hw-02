@@ -1,0 +1,200 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+/*         */
+/* Header */
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.logo-pre {
+  color: #4d5ae5;
+}
+
+.nav-items {
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500px;
+  font-size: 16px;
+}
+
+.contact-item {
+  list-style: none;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #434455;
+  font-weight: 400px;
+  font-size: 16px;
+}
+
+/*               */
+/* Hero Section */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.order-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+/*                     */
+/* Section - About Us */
+.abt-us-list {
+  list-style: none;
+}
+
+.abt-us-list h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.abt-us-list p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+
+/*                         */
+/* Section - Our Products */
+.prod-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.prod-list {
+  list-style: none;
+}
+
+/*                     */
+/* Section - Our Team */
+.team-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-list h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.team-list p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+
+/*         */
+/* footer */
+footer {
+  background-color: #2e2f42;
+}
+
+.logo-foot {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+.foot-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4fd;
+}
+
+/*  */
+/* Portfolio Page */
+/* filters buttons */
+.filter-buttons {
+  list-style: none;
+}
+
+.filter-buttons button {
+  background-color: #f4f4fd;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4d5ae5;
+}
+
+.filter-buttons button:active {
+  background-color: #404bbf;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*  */
+/* Portfolio items */
+.pf-items {
+  list-style: none;
+}
+
+.pf-items h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+
+.pf-items p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
