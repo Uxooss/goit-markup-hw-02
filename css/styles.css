@@ -1,4 +1,5 @@
 body {
+  color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
@@ -8,41 +9,52 @@ body {
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 18px;
-  color: #2e2f42;
+  line-height: 1.17;
+  color: #4d5ae5;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .logo-pre {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
-.nav-items {
+.list {
   list-style: none;
 }
 
-.nav-items a {
+.list-items {
   text-decoration: none;
   color: #2e2f42;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list-items:hover,
+.list-items:focus {
+  color: #404bbf;
 }
 
 .contact-item {
-  list-style: none;
+  font-style: normal;
 }
 
-.contact-item a {
+.contact {
   text-decoration: none;
   font-style: normal;
   color: #434455;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.contact-item a:hover,
-.contact-item a:focus {
+.contact:hover,
+.contact:focus {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -149,7 +161,7 @@ body {
 .logo-foot {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 18px;
   color: #f4f4fd;
   text-decoration: none;
