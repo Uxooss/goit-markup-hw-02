@@ -35,9 +35,19 @@ body {
 
 .contact-item a {
   text-decoration: none;
+  font-style: normal;
   color: #434455;
   font-weight: 400px;
   font-size: 16px;
+}
+
+.contact-item a:hover,
+.contact-item a:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404bbf;
 }
 
 /*               */
@@ -131,7 +141,7 @@ body {
 
 /*         */
 /* footer */
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
