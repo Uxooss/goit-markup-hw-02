@@ -6,6 +6,10 @@ body {
 
 /*         */
 /* Header */
+.link {
+  text-decoration: none;
+}
+
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -13,7 +17,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: #4d5ae5;
-  text-decoration: none;
   letter-spacing: 0.03em;
 }
 
@@ -55,7 +58,7 @@ body {
 
 .contact:hover,
 .contact:focus {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -63,93 +66,123 @@ body {
 }
 
 /*               */
-/* Hero Section */
+/* Section-1 Hero */
 .hero-section {
   background-color: #2e2f42;
 }
 
 .title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   color: #ffffff;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .order-btn {
   cursor: pointer;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
 }
 
+.order-btn:focus,
+.order-btn:hover {
+  background-color: #404bbf;
+}
+
 /*                     */
-/* Section - About Us */
+/* Section-2 - About Us */
 .abt-us-list {
   list-style: none;
 }
 
-.abt-us-list h3 {
-  font-family: "Roboto";
+.abt-us-list-title {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.abt-us-list p {
-  font-family: "Roboto";
+.abt-us-list-text {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*                         */
-/* Section - Our Products */
+/* Section-3 - Our Products */
 .prod-header {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
-}
-
-.prod-list {
-  list-style: none;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 /*                     */
-/* Section - Our Team */
+/* Section-4 - Our Team */
+.team-sec {
+  background-color: #f4f4fd;
+}
+
 .team-header {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
   list-style: none;
 }
 
-.team-list h3 {
-  font-family: "Roboto";
+.team-member-card {
+  background-color: #ffffff;
+}
+
+.team-member-name {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.team-list p {
-  font-family: "Roboto";
+.team-member-psn {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*         */
@@ -164,11 +197,12 @@ body {
   font-weight: 800;
   font-size: 18px;
   color: #f4f4fd;
-  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .foot-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +219,7 @@ body {
 .filter-buttons button {
   cursor: pointer;
   background-color: #f4f4fd;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -194,7 +228,7 @@ body {
 
 .filter-buttons button:active {
   background-color: #404bbf;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -208,7 +242,7 @@ body {
 }
 
 .pf-items h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -216,7 +250,7 @@ body {
 }
 
 .pf-items p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
