@@ -209,14 +209,11 @@ body {
   color: #f4f4fd;
 }
 
-/*  */
+/*                */
 /* Portfolio Page */
-/* filters buttons */
-.filter-buttons {
-  list-style: none;
-}
 
-.filter-buttons button {
+/* filters buttons */
+.filter-button {
   cursor: pointer;
   background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
@@ -224,9 +221,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.filter-buttons button:active {
+.filter-button:hover,
+.filter-button:focus {
   background-color: #404bbf;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -235,24 +235,25 @@ body {
   color: #ffffff;
 }
 
-/*  */
+/*                 */
 /* Portfolio items */
-.pf-items {
-  list-style: none;
-}
 
-.pf-items h3 {
+.pf-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.pf-items p {
+.pf-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
